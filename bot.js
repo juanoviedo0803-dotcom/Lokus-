@@ -6,7 +6,7 @@ function createBot() {
   const bot = mineflayer.createBot({
     host: "mc.ultranetwork.net",
     port: 25565,
-    username: "lematadorsss",
+    username: "lokusss",
     version: "1.8.9"
   })
 
@@ -19,7 +19,7 @@ function createBot() {
     console.log("🎮 Bot apareció en el mundo")
 
     setTimeout(() => {
-      bot.chat("/login juan123")
+      bot.chat("/login camilo123")
       console.log("🔑 Enviando /login")
     }, 3000)
 
